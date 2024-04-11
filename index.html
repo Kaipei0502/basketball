@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="style.css">
+  <title>台灣籃球</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top px-lg-5">
+    <!-- <div class="container"> -->
+    <!--LOGO-->
+    <a class="navbar-brand" href="index.html">
+      <h1 class="fw-bold text-white m-0"><i class="fas fa-basketball-ball"></i> Bask<span
+          class="text-info">et</span>ball</h1>
+    </a>
+    <!-- BUTTON -->
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#lokiNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--MENU-->
+    <div class="collapse navbar-collapse" id="lokiNavbar">
+      <ul class="navbar-nav ms-auto fw-bold">
+        <li class="nav-item active"><a class="nav-link " href="index.html">首頁</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">關於籃球</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">聯盟</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="three.html">聯盟資訊</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="sbl.html">SBL</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="plg.html">P. LEAGUE+</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="t1.html">T1 League</a>
+          </div>
+        <li class="nav-item"><a class="nav-link" href="aboutUs.html">關於我們</a></li>
+        </li>
+      </ul>
+      <!-- </div> -->
+    </div>
+  </nav>
+
+  <!-- banner start -->
+  <div class="d-flex bg-image flex-sm-column-reverse flex-lg-column w-100 p-5">
+    <div class="row justify-content-lg-end justify-content-sm-start py-5 ">
+      <div class="col-md-5 ">
+        <h1 class=" display-4 text-white py-5 mt-5 fw-bold ">Basketball World!</h1>
+        <a href="about.html" class="btn btn-secondary rounded-pill text-white py-3 px-4 animated fw-bold ">Read more</a>
+      </div>
+    </div>
+  </div>
+  <!-- banner end -->
+
+  <!-- history start -->
+  <div class="container-fluid p-5">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-md-1"></div>
+        <div class="col-md-3"><img src="image/father.png" class="img-fluid" alt=""></div>
+        <div class="col-md-8">
+          <h1 class="mb-4 fw-bold">台灣籃球起源</h1>
+          <p class="lh-lg">臺灣籃球起源於日治時期，1922 年，臺灣體育協會從日本邀請美國人 Franklin H.Brown 來臺，首次將籃球引進台灣。
+            當時 Brown 找了多名鐵道部職員和各校學生，在臺北新公園（今二二八公園）教導他們籃球與排球，開啟了臺灣籃球新篇章。</p>
+
+          <p class="lh-lg"> 日治時期的臺灣籃球多在校園中發展，直到 1945 年後軍方的七虎隊等籃球隊成軍，專業球場興建完成和國內外賽事推廣，才漸漸讓籃球普及並成為民眾喜愛的運動。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- history end -->
+
+  <!-- slogan start -->
+  <div class="container-fluid p-5 bg-dark decorate">
+    <div class="container py-5">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-lg-4 text-center">
+          <h2 class="text-white fw-bold fs-2 mb-4">還記得你的初衷嗎</h2>
+        </div>
+        <div class="col-lg-4  text-center">
+          <a href="three.html" class="btn btn-secondary fw-bold mb-4">台灣職籃聯盟 > </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- slogan end -->
+
+  <!-- video start -->
+  <div class="container-fluid p-5">
+    <div class="container py-5">
+      <div class="mb-5">
+        <h1 class="fw-bold">熱門影音</h1>
+      </div>
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <div class="card rounded-3 bg-light shadow-sm">
+            <img class="card-img-top" src="image/popularViedo1.jpg" alt=""></img>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-4">PLG week20 MVP</h5>
+              <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#vedioModal"
+                data-bs-whatever='https://www.youtube.com/embed/19fI2ZtlYTs'>
+                <span></span>
+              </button>
+              <h5 class="d-inline ms-3">Play vedio</h5>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card rounded-3 bg-light shadow-sm">
+            <img class="card-img-top" src="image/popularViedo2.jpg" alt=""></img>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-4">PLG week1 MVP</h5>
+              <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#vedioModal"
+                data-bs-whatever="https://www.youtube.com/embed/GHkvaBIuwhI">
+                <span></span>
+              </button>
+              <h5 class="d-inline ms-3">Play vedio</h5>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card rounded-3 bg-light shadow-sm">
+            <img class="card-img-top" src="image/popularViedo3.jpg" alt=""></img>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-4">PLG week19 MVP</h5>
+              <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#vedioModal"
+                data-bs-whatever="https://www.youtube.com/embed/8R1tbGy43tg">
+                <span></span>
+              </button>
+              <h5 class="d-inline ms-3">Play vedio</h5>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card rounded-3 bg-light shadow-sm">
+            <img class="card-img-top" src="image/popularViedo4.jpg" alt=""></img>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-4">T1 League 12月 MVP</h5>
+              <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#vedioModal"
+                data-bs-whatever="https://www.youtube.com/embed/OrlkKufhLE0">
+                <span></span>
+              </button>
+              <h5 class="d-inline ms-3">Play vedio</h5>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card rounded-3 bg-light shadow-sm">
+            <img class="card-img-top" src="image/popularViedo5.jpg" alt=""></img>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-4">T1 League 1月 MVP</h5>
+              <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#vedioModal"
+                data-bs-whatever="https://www.youtube.com/embed/IFplD5UXQ-s">
+                <span></span>
+              </button>
+              <h5 class="d-inline ms-3">Play vedio</h5>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card rounded-3 bg-light shadow-sm">
+            <img class="card-img-top" src="image/popularViedo6.jpg" alt=""></img>
+            <div class="card-body">
+              <h5 class="card-title fw-bold mb-4">T1 League 11月 MVP</h5>
+              <button type="button" class="btn-play" data-bs-toggle="modal" data-bs-target="#vedioModal"
+                data-bs-whatever="https://www.youtube.com/embed/4sOvI5kEa4g">
+                <span></span>
+              </button>
+              <h5 class="d-inline ms-3">Play vedio</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="vedioModal" tabindex="-1" aria-labelledby="vedioModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="vedioModalLabel">YouTube Video</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        var vedioModal = document.getElementById('vedioModal')
+        vedioModal.addEventListener('show.bs.modal', function (event) {
+          var button = event.relatedTarget
+          var recipient = button.getAttribute('data-bs-whatever')
+
+          const url = `<iframe width="100%" height="400" src="${recipient}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+          vedioModal.querySelector('.modal-body').innerHTML = url;
+        })
+      </script>
+    </div>
+  </div>
+  <!-- video end -->
+
+  <!-- footer start -->
+  <div class="container-fluid bg-dark p-5">
+    <div class="container px-5 pb-4">
+      <div class="row g-5">
+        <div class="col-lg-5 col-12 ">
+          <h1 class="fw-bold text-white mb-3"><i class="fas fa-basketball-ball"></i> Bask<span
+              class="text-info">et</span>ball</h1>
+          <p class="text-white fs-6">關於台灣籃球的大小事都在這!</p>
+          <div class="d-flex pt-3">
+            <a href="" class="btn btn-square btn-outline-light rounded-circle me-2 "><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="" class="btn btn-square btn-outline-light rounded-circle me-2"><i class="fab fa-twitter"></i></a>
+            <a href="" class="btn btn-square btn-outline-light rounded-circle me-2"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-8 col-sm-12">
+          <p class="text-white fs-5 mt-2"><i class="fa fa-map-marker-alt me-3"> 高雄市楠梓區高雄大學路700號</i></p>
+          <p class="text-white fs-5 mt-4"><i class="fa fa fa-phone-alt me-3"> 07-5919000</i></p>
+          <p class="text-white fs-5 mt-4"><i class="fa fa-envelope me-3"> 12346@gmail.com</i></p>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-12 item">
+          <a href="index.html" class="btn btn-link fw-bold"><i class="fas fa-angle-right me-2"></i>首頁</a>
+          <a href="about.html" class="btn btn-link fw-bold"><i class="fas fa-angle-right me-2"></i>關於籃球</a>
+          <a href="three.html" class="btn btn-link fw-bold"><i class="fas fa-angle-right me-2"></i>聯盟</a>
+          <a href="aboutUs.html" class="btn btn-link fw-bold"><i class="fas fa-angle-right me-2"></i>關於我們</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-dark pt-3 copyright ">
+      <div class="container px-3 py-1">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center  text-md-start">
+            <a href="#" class="text-white">
+              © Basketball版權所有</a>
+          </div>
+          <div class="col-md-6 text-center text-md-end mb-3 text-white">設計:張愷旆 <br>資料來源:Home Run Taiwan</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer end -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="owl.carousel.js"></script>
+</body>
+
+</html>
